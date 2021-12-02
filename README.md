@@ -3,8 +3,8 @@
 Nothing runnable, just a repo of code snippets for [Advent of Code](https://adventofcode.com/)! "Day" links lead to the Advent for Code problem. Language icons lead to the snippets. Maybe I'll refactor them one day? 😹
 
 ### [2021](https://adventofcode.com/2021) solutions
-[Day 1](https://adventofcode.com/2021/day/1) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
-[Day 2](https://adventofcode.com/2021/day/2) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-02.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a>|| 
+[Day 1](https://adventofcode.com/2021/day/1) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.ts"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" /></a> || 
+[Day 2](https://adventofcode.com/2021/day/2) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-02.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
 Day 3 || 
 Day 4 || 
 Day 5 || 
