@@ -1,9 +1,9 @@
-# advent-of-code
+# Advent of Code
 
 Nothing runnable, just a repo of code snippets for [Advent of Code](https://adventofcode.com/)! Maybe I'll refactor them one day? 😹
 
-### 2021 solutions
-Day 1 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
+### [2021](https://adventofcode.com/2021) solutions
+[Day 1](https://adventofcode.com/2021/day/1) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
 Day 2 || 
 Day 3 || 
 Day 4 || 
