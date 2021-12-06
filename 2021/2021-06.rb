@@ -49,7 +49,29 @@ def predict_the_fish(init_fish, days)
   Lanternfish.all.count
 end
 
-puts predict_the_fish(Input.day_6_sample_input, 256)
+def predict_too_many_fish(init_fish, days)
+  sea = { 0 => 0, 1 => 0, 2 => 0, 3 => 0, 4 => 0, 5 => 0, 6 => 0, 7 => 0, 8 => 0 }
+  init_fish.each { |timer| sea[timer] += 1 }
+
+  # age the fishies
+  days.times do
+    new_sea = sea.clone
+    new_sea[8] = sea[0]
+    new_sea[7] = sea[8]
+    new_sea[6] = sea[7] + sea[0]
+    new_sea[5] = sea[6]
+    new_sea[4] = sea[5]
+    new_sea[3] = sea[4]
+    new_sea[2] = sea[3]
+    new_sea[1] = sea[2]
+    new_sea[0] = sea[1]
+
+    sea = new_sea.clone
+  end
+  puts sum = sea.values.sum
+end
+
+predict_too_many_fish(Input.day_6_input, 256)
 
 # tests!
 require 'rspec'
@@ -97,6 +119,14 @@ describe Lanternfish do
       Lanternfish.age_all_fish
       expect(Lanternfish.timers_list).to contain_exactly(6,0,6,4,5,6,7,8,8)
     end
+  end
+
+  context 'too many fish' do
+    it 'initializes fish' do  
+      Lanternfish.exterminate
+
+    end
+
   end
 
   context 'sample input' do
