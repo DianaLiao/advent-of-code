@@ -91,7 +91,6 @@ def segments_to_numbers(key)
   number_key["8"] = key.values
   number_key["9"] = key.fetch_values(:top, :middle, :bottom, :upper_right, :lower_right, :upper_left)
   number_key["0"] = key.fetch_values(:top, :bottom, :upper_left, :upper_right, :lower_right, :lower_left)
-
   number_key
 end
 
@@ -143,21 +142,12 @@ end
 
 
 # puts part1(Input.day_8_input)
-# p figure_out_segments(["be", "cfbegad", "cbdgef", "fgaecd", "cgeb", "fdcge", "agebfd", "fecdb", "fabcd", "edb"])
-# number_key = segments_to_numbers({:top=>"d", :middle=>"c", :bottom=>"f", :upper_left=>"g", :upper_right=>"b", :lower_left=>"a", :lower_right=>"e"})
-# p output_to_number(["fdgacbe", "cefdb", "cefbgd", "gcbe"],number_key)
 
 p part2(Input.day_8_input)
 
 require 'rspec'
 describe 'Day 8' do
   context 'helper methods' do
-    # it 'parser works' do
-    #   input = "be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe
-    #     edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec | fcgedb cgb dgebacf gc"
-    #   expect(parse_to_lines(input)).to eq([])
-    # end
-
     it 'counts letters' do
       patterns = ["be", "cfbegad", "cbdgef", "fgaecd", "cgeb", "fdcge", "agebfd", "fecdb", "fabcd", "edb"]
       expect(count_segments(patterns)).to eq({"a" => 4, "b" => 8, "c" => 7, "d" => 8, "e" => 9, "f" => 7, "g" => 6})
