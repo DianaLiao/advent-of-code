@@ -6,11 +6,11 @@ Nothing runnable, just a repo of code snippets for [Advent of Code](https://adve
 [Day 1](https://adventofcode.com/2021/day/1) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-01.ts"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" /></a> || 
 [Day 2](https://adventofcode.com/2021/day/2) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-02.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
 [Day 3](https://adventofcode.com/2021/day/3) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-03.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
-Day 4 || 
-Day 5 || 
-Day 6 || 
-Day 7 || 
-Day 8 || 
+[Day 4](https://adventofcode.com/2021/day/4) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-04.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
+[Day 5](https://adventofcode.com/2021/day/5) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-05.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
+[Day 6](https://adventofcode.com/2021/day/6) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-06.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a>  || 
+[Day 7](https://adventofcode.com/2021/day/7) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-07.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
+[Day 8](https://adventofcode.com/2021/day/8) 🌟 <a href="https://github.com/DianaLiao/advent-of-code/blob/main/2021/2021-08.rb"><img height="15" width="15" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Ruby_logo.svg" /></a> || 
 Day 9 || 
 Day 10 || 
 Day 11 || 
